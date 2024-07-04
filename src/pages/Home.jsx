@@ -2,7 +2,6 @@ import React from "react";
 import Welcome from "../components/welcome/Welcome.jsx";
 import { BoxContainer } from "../components/features/feature.jsx";
 import ResponsiveBox from "../components/features/ResponsiveBox.jsx";
-import Footer from "../components/footer/Footer.js";
 import image from "../assets/images/arrow.png";
 import image1 from "../assets/images/image1.png";
 import image2 from "../assets/images/image2.png";

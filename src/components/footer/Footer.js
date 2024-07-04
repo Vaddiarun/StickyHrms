@@ -194,7 +194,7 @@ const Footer = () => {
     <div className="flex flex-col text-lg">
       <p className="lg:font-roboto lg:text-lg lg:ml-20 lg:font-medium text-start ml-20">
         <FaPhone className="inline-block mr-4" />
-        Contact Us
+       Contact Us
       </p>
       <p className="font-lato font-extralight lg:ml-20 text-lg mt-2 text-start ml-20">+91852741963</p>
     </div>
@@ -220,7 +220,8 @@ const Footer = () => {
         <FontAwesomeIcon icon={faYoutube} className="text-white text-3xl mx-4" />
         <FontAwesomeIcon icon={faFacebook} className="text-white text-3xl mx-4" />
         <FontAwesomeIcon icon={faInstagram} className="text-white text-3xl mx-4" />
-        <FontAwesomeIcon icon={faLinkedin} className="text-white text-3xl mx-4" />
+              
+              <a href='https://www.linkedin.com/company/stickyhr/jobs/?viewAsMember=true'><FontAwesomeIcon icon={faLinkedin} className="text-white text-3xl mx-4" /></a>
       </div>
     </div>
   </div>

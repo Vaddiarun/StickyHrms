@@ -5,7 +5,6 @@ import icon3 from "../../assets/images/icon3.png";
 import icon4 from "../../assets/images/icon4.png";
 import icon5 from "../../assets/images/icon5.png";
 import icon6 from "../../assets/images/icon6.png";
-import arrow from "../../assets/images/arrow.png";
 
 const array1 = [
   {
