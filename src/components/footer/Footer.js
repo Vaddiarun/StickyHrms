@@ -163,11 +163,11 @@ const Footer = () => {
           </p>
         </div>
       </div>
-
-      <div className="w-full lg:w-full text-white p-5 rounded-3xl mr-0 lg:mr-20">
+{/* 
+      <div className="w-full lg:w-full text-white p-5 rounded-3xl mr-0 lg:mr-20 ">
         <div className="h-px bg-customGray my-4 mx-4"></div>
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-4 lg:mt-10">
-          <div className="flex flex-col justify text-lg">
+          <div className="flex flex-col justify text-lg ">
             <p className='lg:font-roboto lg:text-lg lg:ml-20 lg:font-medium text-start ml-20'><FaPhone className="inline-block mr-4" />Contact Us </p>
             <p className='font-lato font-extralight lg:ml-20 text-lg mt-2 text-start ml-20'>+91852741963</p>
           </div>
@@ -176,10 +176,10 @@ const Footer = () => {
             <p className='font-lato font-extralight text-lg mt-2 leading-8 text-left ml-20'>Garuda Bhive Workspace,kuvempu bus station,Bengalore Karnataka-574369</p>
           </div>
           <div className="flex flex-col justify">
-            <p className='font-roboto lg:ml-40 text-lg text-left font-medium ml-20'> <FaEnvelope className="inline-block mr-4" />Mail Us</p>
-            <p className='font-lato font-extralight lg:ml-40 text-lg mt-2 text-left ml-20'>stickyhr@gmail.com</p>
+            <p className='font-roboto lg:ml-10 text-lg text-left font-medium ml-20'> <FaEnvelope className="inline-block mr-4" />Mail Us</p>
+            <p className='font-lato font-extralight lg:ml-10 text-lg mt-2 text-left ml-20'>stickyhr@gmail.com</p>
           </div>
-          <div className="flex lg:flex-wrap justify-end lg:justify-end gap-1 lg:mr-20 mt-8">
+          <div className="flex lg:flex-wrap justify-end lg:justify-end gap-1 lg:mr-24 lg:ml-0 mt-8">
             <FaXTwitter className="text-white text-3xl mx-4" />
             <FontAwesomeIcon icon={faYoutube} className="text-white text-3xl mx-4" />
             <FontAwesomeIcon icon={faFacebook} className="text-white text-3xl mx-4" />
@@ -187,7 +187,45 @@ const Footer = () => {
             <FontAwesomeIcon icon={faLinkedin} className="text-white text-3xl mx-4" />
           </div>
         </div>
+      </div> */}
+      <div className="w-full lg:w-full text-white p-5 rounded-3xl mr-0 lg:mr-20">
+  <div className="h-px bg-customGray my-4 mx-4"></div>
+  <div className="grid grid-cols-1 lg:grid-cols-4 gap-4 lg:mt-10">
+    <div className="flex flex-col text-lg">
+      <p className="lg:font-roboto lg:text-lg lg:ml-20 lg:font-medium text-start ml-20">
+        <FaPhone className="inline-block mr-4" />
+        Contact Us
+      </p>
+      <p className="font-lato font-extralight lg:ml-20 text-lg mt-2 text-start ml-20">+91852741963</p>
+    </div>
+    <div className="flex flex-col">
+      <p className="font-roboto ml-20 text-left text-lg font-medium">
+        Reach Us
+        <FaMapMarkerAlt className="inline-block ml-2" />
+      </p>
+      <p className="font-lato font-extralight text-lg mt-2 leading-8 text-left ml-20">
+        Garuda Bhive Workspace, kuvempu bus station, Bangalore Karnataka-574369
+      </p>
+    </div>
+    <div className="flex flex-col ">
+      <p className="font-roboto lg:ml-10 text-lg text-left font-medium ml-20">
+        <FaEnvelope className="inline-block mr-4" />
+        Mail Us
+      </p>
+      <p className="font-lato font-extralight lg:ml-10 text-lg mt-2 text-left ml-20">stickyhr@gmail.com</p>
+    </div>
+    <div className="flex lg:justify-end justify-center lg:mr-24 lg:ml-0 mt-8 lg:mt-0 ">
+      <div className="flex gap-1 lg:ml-56">
+        <FaXTwitter className="text-white text-3xl mx-4" />
+        <FontAwesomeIcon icon={faYoutube} className="text-white text-3xl mx-4" />
+        <FontAwesomeIcon icon={faFacebook} className="text-white text-3xl mx-4" />
+        <FontAwesomeIcon icon={faInstagram} className="text-white text-3xl mx-4" />
+        <FontAwesomeIcon icon={faLinkedin} className="text-white text-3xl mx-4" />
       </div>
+    </div>
+  </div>
+</div>
+
 
       <div className="h-px bg-customGray my-4 mx-4"></div>
 
